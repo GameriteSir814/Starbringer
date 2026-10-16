@@ -1,0 +1,8 @@
+# Must match EvolutionSMP's config.yml -> size.maximum. A power weapon kill
+# will never push a player's size past this, same hard cap as normal kills.
+max-size: 4.0
+
+# Left-click shrink menu (power weapons only)
+heart-cost: 1          # hearts of current health lost per shrink
+menu-seconds: 15       # menu auto-closes after this long
+size-options: [4.0, 3.0, 2.0, 1.5, 1.0, 0.75, 0.5, 0.25, 0.125, 0.0625]

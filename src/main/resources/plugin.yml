@@ -1,0 +1,17 @@
+name: PowerWeapon
+version: 1.0.0
+main: com.powerweapon.PowerWeapon
+api-version: '1.21'
+author: EvolutionSMP
+description: Lets ops mark any weapon so a kill with it sets your size to a fixed total multiplier.
+softdepend: [EvolutionSMP]
+
+commands:
+  pw:
+    description: Mark/unmark the held item as a power weapon.
+    usage: /pw <add|remove|type|untype|list>
+    permission: powerweapon.admin
+
+permissions:
+  powerweapon.admin:
+    default: op
